@@ -5,14 +5,16 @@ export interface Props {
   ariaLabel?: string;
   title?: string;
   disabled?: boolean;
+  target?: string;
 }
 
-const { href, className, ariaLabel, title, disabled = false } = Astro.props;
+const { href, className, ariaLabel, title, disabled = false, target } = Astro.props;
 ---
 
 <a
   href={disabled ? "#" : href}
   tabindex={disabled ? "-1" : "0"}
+  target={target ? target : "_self"}
   class={`group inline-block ${className}`}
   aria-label={ariaLabel}
   title={title}
