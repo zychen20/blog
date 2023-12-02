@@ -2,7 +2,7 @@
 
 ## About My Blog
 
-The blog is built with Astro. The blog theme is [Astro Paper](https://github.com/satnaing/astro-paper/tree/main/src/content/blog).
+The blog is built with Astro. The blog theme is [Astro Paper](https://github.com/satnaing/astro-paper).
 
 ## Commands
 
