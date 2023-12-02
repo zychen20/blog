@@ -65,26 +65,13 @@ export default (post: CollectionEntry<"blog">) => {
           <div
             style={{
               display: "flex",
+              flexDirection: "row-reverse",
               justifyContent: "space-between",
               width: "100%",
               marginBottom: "8px",
               fontSize: 28,
             }}
           >
-            <span>
-              by{" "}
-              <span
-                style={{
-                  color: "transparent",
-                }}
-              >
-                "
-              </span>
-              <span style={{ overflow: "hidden", fontWeight: "bold" }}>
-                {post.data.author}
-              </span>
-            </span>
-
             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
               {SITE.title}
             </span>
