@@ -10,7 +10,7 @@ export const SITE: Site = {
   postPerPage: 7,
 };
 
-export const LOCALE = ["en-US", "zh-CN"]; // set to [] to use the environment default
+export const LOCALE = ["en-US"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
