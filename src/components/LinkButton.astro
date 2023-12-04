@@ -6,9 +6,10 @@ export interface Props {
   title?: string;
   disabled?: boolean;
   target?: string;
+  id?: string;
 }
 
-const { href, className, ariaLabel, title, disabled = false, target } = Astro.props;
+const { href, className, ariaLabel, title, disabled = false, target, id } = Astro.props;
 ---
 
 <a
@@ -19,6 +20,7 @@ const { href, className, ariaLabel, title, disabled = false, target } = Astro.pr
   aria-label={ariaLabel}
   title={title}
   aria-disabled={disabled}
+  id={id}
 >
   <slot />
 </a>

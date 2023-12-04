@@ -27,6 +27,7 @@ const { centered = false } = Astro.props;
     href=""
     className="link-button"
     title={"Email me"}
+    id="mail-button"
   >
     <Fragment set:html={socialIcons["Mail"]} />
   </LinkButton>
@@ -43,8 +44,8 @@ const { centered = false } = Astro.props;
 </style>
 
 <script>
-  function toggleShowEmail() {
-    const email = document.querySelector("#mail");
+  function toggleShowEmail () {
+    const email = document.getElementById("mail");
     if (email == undefined) return;
     if (email.textContent) {
       email.textContent = "";
@@ -52,9 +53,8 @@ const { centered = false } = Astro.props;
       email.textContent = atob("enljaGVuMjAyM0BnbWFpbC5jb20=");
     }
   }
-  const socialIcons = document.querySelectorAll("div.social-icons > a")
-  const mailButton = socialIcons[socialIcons.length-1];
-  if (mailButton) {
-    mailButton.addEventListener("click", toggleShowEmail);
+  function handleEmailButtonClick () {
+    document.getElementById("mail-button")?.addEventListener("click", toggleShowEmail);
   }
+  document.addEventListener("astro:page-load", handleEmailButtonClick);
 </script>
