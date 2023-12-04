@@ -16,6 +16,6 @@ The reason I finally chose frontend development as my ultimate career goal goes 
 ## About The Blog
 
 The blog is built with <a href="https://astro.build/" target="_blank">Astro</a>, deployed on Netlify.
-The font used is <a href="https://fonts.google.com/specimen/Ubuntu" target="_blank">Ubuntu</a>, Google Fonts relay service provided by [u.sb](https://u.sb/).
+The font used is <a href="https://fonts.google.com/specimen/Ubuntu" target="_blank">Ubuntu</a>. Google Fonts relay service provided by <a href="https://u.sb/" target="_blank">Showfom</a>.
 
 In the blog you can find some technical stuff and some of my thoughts on other topics.
