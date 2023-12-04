@@ -1,5 +1,11 @@
 # Blog
 
+## TODOs
+
+- [ ] Update `astro` to `3.5.0`
+- [ ] Test prefetch support on non-Chromium browsers after bumping `astro`
+- [ ] Test other fetching methods of font resources
+
 ## About My Blog
 
 The blog is built with Astro. The blog theme is [Astro Paper](https://github.com/satnaing/astro-paper).
