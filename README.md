@@ -2,8 +2,8 @@
 
 ## TODOs
 
-- [ ] Update `astro` to `3.5.0`
-- [ ] Test prefetch support on non-Chromium browsers after bumping `astro`
+- [x] Update `astro` to `>3.5.0`
+- [x] Test prefetch support on non-Chromium browsers after bumping `astro`
 - [ ] Test other fetching methods of font resources
 
 ## About My Blog
