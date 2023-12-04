@@ -23,6 +23,14 @@ const { centered = false } = Astro.props;
       </LinkButton>
     ))
   }
+  <LinkButton
+    href=""
+    className="link-button mail-button"
+    title={"Email me"}
+  >
+    <Fragment set:html={socialIcons["Mail"]} />
+  </LinkButton>
+  <span id="mail" class="text-sm font-mono mx-1"></span>
 </div>
 
 <style>

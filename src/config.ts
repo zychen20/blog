@@ -48,7 +48,7 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "javascript:window.location.href=atob('bWFpbHRvOnp5Y2hlbjIwMjNAZ21haWwuY29t')",
     linkTitle: `Send an email to ${SITE.author}`,
-    active: true,
+    active: false,
   },
   {
     name: "Twitter",
