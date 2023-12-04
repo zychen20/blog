@@ -17,7 +17,7 @@ const { centered = false } = Astro.props;
         href={social.href}
         className="link-button"
         title={social.linkTitle}
-        target="_blank"
+        target={social.name !== "Mail" ? "_blank" : "_self"}
       >
         <Fragment set:html={socialIcons[social.name]} />
       </LinkButton>
