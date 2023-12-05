@@ -3,6 +3,7 @@ title: Markdown Test
 author: Zhenyu Chen
 pubDatetime: 2023-12-05T12:48:49.447Z
 description: A full markdown test post.
+draft: true
 ---
 
 # h1 Heading

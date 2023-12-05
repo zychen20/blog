@@ -5,6 +5,7 @@
 - [x] Update `astro` to `>3.5.0`
 - [x] Test prefetch support on non-Chromium browsers after bumping `astro`
 - [ ] Test other fetching methods of font resources
+- [ ] Tweak markdown-to-html process so that all the markdown links can open in new window
 
 ## About My Blog
 
