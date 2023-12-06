@@ -15,7 +15,13 @@ The reason I finally chose frontend development as my ultimate career goal goes 
 
 ## About The Blog
 
-The blog is built with <a href="https://astro.build/" target="_blank">Astro</a>, deployed on Netlify.
-The font used is <a href="https://fonts.google.com/specimen/Ubuntu" target="_blank">Ubuntu</a>. Google Fonts relay service provided by <a href="https://u.sb/" target="_blank">Showfom</a>.
+The blog is built with [Astro](https://astro.build), deployed on Netlify.
+The font used is [Ubuntu](https://fonts.google.com/specimen/Ubuntu). Google Fonts relay service provided by [Showfom](https://u.sb).
 
 In the blog you can find some technical stuff and some of my thoughts on other topics.
+
+## About The Language / 关于语言
+
+In terms of the language I choose for my blog posts, it depends on the content. If something is less talked about in Chinese on the Internet, I will use Chinese. The same goes for English.
+
+关于我写作所使用的语言，具体取决于内容。如果我要写的内容，中文互联网上资料不多，我就会用中文写。英文同理。
