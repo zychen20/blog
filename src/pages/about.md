@@ -10,6 +10,8 @@ The font I use is [Ubuntu](https://fonts.google.com/specimen/Ubuntu). Google Fon
 
 In the blog you can find some technical stuff and some of my thoughts on other topics.
 
+In terms of the language I choose for my blog posts, it depends on the content. If something is less talked about in Chinese on the Internet, I will use Chinese. The same goes for English.
+
 ## About Me
 
 I'm Zhenyu Chen, a halfway developer focused on frontend development.
